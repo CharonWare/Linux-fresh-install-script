@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Mount the pi server persistently
 mkdir /mnt/media
 echo "//192.168.0.100/media /mnt/media cifs defaults,user=<username>,pass=<password>,rw 0 0" >> /etc/fstab
